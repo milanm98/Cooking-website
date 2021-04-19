@@ -1,9 +1,16 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 
 .background{
-  background-image: url("./pozadina2.jpg");
-  background-position: center;
-  background-size: cover;
+  background: url("./pozadina2.jpg"); 
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .background{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
