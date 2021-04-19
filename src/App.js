@@ -1,4 +1,5 @@
 import './App.css';
+import Content from "./Components/Content";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="arrow animate-pulse text-white text-6xl md:text-9xl">
         <span>&dArr;</span>
       </div>
+      <Content></Content>
     </main>
   );
 }
