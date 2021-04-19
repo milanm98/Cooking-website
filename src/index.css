@@ -1,10 +1,17 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 
 .background{
-  background: url("./pozadina2.jpg"); 
+  background: url("./desktop.jpg"); 
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: center;
+}
+
+.arrow{
+  position: absolute;
+  left: 30%;
+  top: 90%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 767px) {
@@ -14,4 +21,11 @@
     background-repeat: no-repeat;
     background-size: cover !important;
   }
+
+  .arrow{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
 }
