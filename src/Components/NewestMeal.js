@@ -36,6 +36,7 @@ function NewestMeal(){
                         src="https://www.youtube.com/embed/5NLd0SFiD74"
                         className="w-full h-screen p-6"
                         controls
+                        title="tutorial"
                         >
                     </iframe>
                 </div>
