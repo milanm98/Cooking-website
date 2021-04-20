@@ -3,11 +3,11 @@ import torta from "../tortamaline.jpg";
 function NewestMeal(){
     return(
         <main>
-            <div className="font-serif text-2xl my-5 text-center md:text-5xl text-black bg-white font-black">
-                Najnovije : 
+            <div className="font-serif text-2xl text-center md:text-5xl text-white font-black">
+                <p className="p-6">Najnovije :</p> 
             </div>
 
-            <div className="flex flex-col items-center font-serif content-center justify-center w-full h-auto">
+            <div className="flex flex-col items-center text-white font-black font-serif content-center justify-center w-full h-auto">
                 <div className="flex flex-col md:flex-row flex-grow">
                     <img src={torta}
                      alt = "slika torte sa malinama"
@@ -26,8 +26,8 @@ function NewestMeal(){
                     
                 </div>
 
-                <div className="flex flex-col items-center cursive content-center justify-center w-full h-auto">
-                    <p className="font-serif text-2xl my-5 text-center md:text-5xl text-black bg-white font-black">Izgleda dobro? 
+                <div className="flex flex-col text-white font-black items-center cursive content-center justify-center w-full h-auto">
+                    <p className="font-serif text-2xl my-5 text-center md:text-5xl font-black">Izgleda dobro? 
                         <br></br><br></br><br></br>
 
                         Pogledajte kako se pravi 

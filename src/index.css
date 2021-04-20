@@ -7,6 +7,13 @@
   background-position: center;
 }
 
+.content{
+  background: url("./Content.jpg"); 
+  background-repeat: repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+
 .cursive{
   font-family: cursive;
 }
@@ -30,6 +37,13 @@
     background-repeat: no-repeat;
     background-size: cover !important;
   }
+
+  .content{
+  background: url("./Content.jpg"); 
+  background-repeat: repeat;
+  background-size: cover !important;
+  background-position: center;
+  } 
 
   .arrow{
     position: absolute;

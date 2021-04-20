@@ -4,11 +4,11 @@ function MostPopularMeal(){
     return(
         <main>
 
-             <div className="font-serif text-2xl my-5 text-center md:text-5xl text-black bg-white font-black">
+             <div className="text-white font-serif text-2xl my-5 text-center md:text-5xl font-black">
                     Najpopularnije : 
             </div>    
 
-             <div className="flex flex-col items-center font-serif content-center justify-center w-full h-auto">
+             <div className="text-white font-black flex flex-col items-center font-serif content-center justify-center w-full h-auto">
                 <div className="flex flex-col md:flex-row flex-grow">
                          <img src={snicla}
                      alt = "slika snicli"
@@ -31,7 +31,7 @@ function MostPopularMeal(){
                 </div>
 
                 <div className="flex flex-col items-center cursive content-center justify-center w-full h-auto">
-                        <p className="font-serif text-2xl my-5 text-center md:text-5xl text-black bg-white font-black">Svidja Vam se? 
+                        <p className="font-serif text-2xl my-5 text-center md:text-5xl text-white font-black">Svidja Vam se? 
                             <br></br><br></br><br></br>
 
                             Probajte sami da napravite 
