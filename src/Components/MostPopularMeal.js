@@ -38,7 +38,7 @@ function MostPopularMeal(){
                         </p>
                         <iframe
                             src="https://www.youtube.com/embed/W9kOcFYZj4c"
-                            className="w-full h-screen p-6"
+                            className="w-full h-screen p-6 md:p-16"
                             controls
                             title="tutorial"
                             >
