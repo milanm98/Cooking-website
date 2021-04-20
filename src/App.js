@@ -1,5 +1,5 @@
 import './App.css';
-import Content from "./Components/Content";
+import NewestMeal from "./Components/NewestMeal";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="arrow animate-pulse text-white text-6xl md:text-9xl">
         <span>&dArr;</span>
       </div>
-      <Content></Content>
+      <NewestMeal></NewestMeal>      
     </main>
   );
 }
