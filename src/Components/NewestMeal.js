@@ -11,7 +11,7 @@ function NewestMeal(){
                 <div className="flex flex-col md:flex-row ">
                     <img src={torta}
                      alt = "slika torte sa malinama"
-                     className="float-none md:float-left p-6"></img>
+                     className="float-none md:float-left p-6 h-64 md:h-full"></img>
                     
                     <p className=" text-center text-1xl md:text-5xl">
                         <strong><em>Raspberry cake</em></strong><br></br><br></br>
