@@ -7,7 +7,7 @@ function NewestMeal(){
                 Najnovije : 
             </div>
 
-            <div className="flex flex-col items-center cursive content-center justify-center w-full h-auto">
+            <div className="flex flex-col items-center font-serif content-center justify-center w-full h-auto">
                 <div className="flex flex-col md:flex-row ">
                     <img src={torta}
                      alt = "slika torte sa malinama"

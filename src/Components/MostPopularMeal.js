@@ -8,13 +8,16 @@ function MostPopularMeal(){
                     Najpopularnije : 
             </div>    
 
-             <div className="flex flex-col items-center cursive content-center justify-center w-full h-auto">
-                <div className="flex flex-col md:flex-row items-center justify-center content-center cursive">
-                        <img src={snicla}
-                        alt = "slika snicli"
-                        className="float-none md:float-left p-6 h-64 md:h-full"></img>
+             <div className="flex flex-col items-center font-serif content-center justify-center w-full h-auto">
+                <div className="flex flex-col md:flex-row">
+                        <div className="w-1/2 h-64 md:h-full float-none md:float-left p-6">
+                            <img src={snicla}
+                            alt = "slika snicli">
+
+                            </img>
+                        </div>
                         
-                        <p className=" text-center text-1xl md:text-5xl">
+                        <p className="w-1/2 h-full text-center text-1xl md:text-5xl">
                             <strong><em>Lovacke snicle</em></strong><br></br><br></br>
                             Sastojci :<br></br>
                             14 snicli<br></br>
