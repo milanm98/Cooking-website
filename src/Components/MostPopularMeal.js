@@ -8,7 +8,7 @@ function MostPopularMeal(){
                     Najpopularnije : 
             </div>    
 
-            <div className="flex flex-col md:flex-row ">
+            <div className="flex flex-col md:flex-row items-center justify-center content-center cursive">
                     <img src={snicla}
                      alt = "slika torte sa malinama"
                      className="float-none md:float-left p-6 w-1/2"></img>
