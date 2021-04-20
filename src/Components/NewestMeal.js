@@ -8,7 +8,7 @@ function NewestMeal(){
             </div>
 
             <div className="flex flex-col items-center font-serif content-center justify-center w-full h-auto">
-                <div className="flex flex-col md:flex-row ">
+                <div className="flex flex-col md:flex-row flex-grow">
                     <img src={torta}
                      alt = "slika torte sa malinama"
                      className="float-none md:float-left p-6"></img>
