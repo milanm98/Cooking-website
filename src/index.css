@@ -55,7 +55,8 @@
   .fa{
   font-size: 2rem;
   width: 2rem;
-  height: 2rem; 
+  height: 2rem;
+  float:none;
 }
 
 
