@@ -14,7 +14,7 @@ function MostPopularMeal(){
                      alt = "slika snicli"
                      className="float-none md:float-left p-6"></img>
                         
-                        <p className="w-1/2 h-full text-center text-1xl md:text-5xl">
+                        <p className="h-full text-center text-1xl md:text-5xl">
                             <strong><em>Lovacke snicle</em></strong><br></br><br></br>
                             Sastojci :<br></br>
                             14 snicli<br></br>
