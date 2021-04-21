@@ -1,7 +1,8 @@
 import './App.css';
 import NewestMeal from "./Components/NewestMeal";
 import MostPopularMeal from "./Components/MostPopularMeal";
-import { Helmet } from "react-helmet"
+import Galerija from "./Components/Galerija";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </div>
         <div id="najpopularnije">
           <MostPopularMeal></MostPopularMeal> 
+        </div>
+        <div>
+          <Galerija></Galerija>
         </div>
       </div>
     </main>
