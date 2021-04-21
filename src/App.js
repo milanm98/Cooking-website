@@ -2,6 +2,7 @@ import './App.css';
 import NewestMeal from "./Components/NewestMeal";
 import MostPopularMeal from "./Components/MostPopularMeal";
 import Galerija from "./Components/Galerija";
+import Feedback from "./Components/Feedback";
 import { Helmet } from "react-helmet";
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
         </div>
         <div>
           <Galerija></Galerija>
+        </div>
+        <div>
+          <Feedback></Feedback>
         </div>
       </div>
     </main>
