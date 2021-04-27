@@ -7,13 +7,13 @@ Responsive web design done with Tailwind css
 
 You can check how it looks on desktop : 
 
-![image](https://user-images.githubusercontent.com/62839581/115958118-5b97e480-a506-11eb-8308-6633764775c0.png)
+![image](https://user-images.githubusercontent.com/62839581/116315563-ffa4b880-a7b0-11eb-81be-780d26f0eb6e.png)
 
 
 Mobile view : 
 
 
-![image](https://user-images.githubusercontent.com/62839581/115958143-7702ef80-a506-11eb-9fec-e4ffb875c283.png)
+![image](https://user-images.githubusercontent.com/62839581/116315623-121ef200-a7b1-11eb-8f83-31c4ed3103c9.png)
 
 
 And you can go check it live on : mojakuhinjica.netlify.app
